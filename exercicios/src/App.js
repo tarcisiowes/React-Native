@@ -1,8 +1,15 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
+import ComponentOne from './components/ComponentOne';
 
 export default () => {
-  return <Text> Texto </Text>;
+  return (
+    <View>
+
+  <Text> Texto </Text>
+  <ComponentOne />
+    </View>
+  );
 };
 
