@@ -2,14 +2,15 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 import ComponentOne from './components/ComponentOne';
+import RandomNumbers from './components/Random'
 
 export default () => {
   return (
     <View>
 
   <Text> Texto </Text>
-  <ComponentOne />
+      <RandomNumbers />
+      <ComponentOne />
     </View>
   );
 };
-
